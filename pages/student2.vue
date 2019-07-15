@@ -13,7 +13,7 @@
     </select>
     <ul>
       <li v-for="st in filteredStudent" :key="st.id">
-        {{ st.code }} {{ st.first_name }} {{ st.last_name }}
+        {{ st.code }} {{ st.fname }} {{ st.lname }}
       </li>
     </ul>
   </div>

@@ -13,7 +13,7 @@
     </select>
     <ul>
       <li v-for="st in students" :key="st.id">
-        {{ st.code }} {{ st.firstName }} {{ st.lastName }}
+        {{ st.code }} {{ st.fname }} {{ st.lname }}
         <v-btn @click="editStudent(st.id)">Edit</v-btn>
       </li>
     </ul>

@@ -12,6 +12,9 @@ module.exports = {
       'vue-axios',
       'moment',
       'socket.io-client',
+      'vue2-simplert-plugin',
+      'vue-notifications',
+      'vue-swal',
     ],
   },
   plugins: [
@@ -19,6 +22,9 @@ module.exports = {
     '~/plugins/axios',
     '~/plugins/misc',
     '~/plugins/socket',
+    '~/plugins/simplert',
+    '~/plugins/vue-notifications',
+    '~/plugins/vue-swal',
   ],
   proxy: {
     '/api': 'http://127.0.0.1:7000',
